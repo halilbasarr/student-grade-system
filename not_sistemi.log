@@ -1,0 +1,7 @@
+2026-04-15 12:57:44 | INFO | ÇAĞRI: ogrenci_ekle(args=(Ogrenci(ad='Halil', soyad='BAŞAR', numara='123', id=None, kayit_tarihi=None),), kwargs={})
+2026-04-15 12:57:44 | INFO | BAŞARI: ogrenci_ekle → 1
+2026-04-15 12:57:46 | INFO | SÜRE: ogrencileri_getir → 1.81ms
+2026-04-15 12:57:57 | INFO | SÜRE: ogrencileri_getir → 0.71ms
+2026-04-15 12:58:08 | INFO | ÇAĞRI: not_ekle(args=(Not(ogrenci_id=1, ders_id=2, vize=100.0, final=100.0, id=None),), kwargs={})
+2026-04-15 12:58:08 | ERROR | HATA: not_ekle → CiftKayitError: Bu öğrencinin bu dersteki notu zaten girilmiş.
+2026-04-15 12:58:12 | INFO | SÜRE: ogrencileri_getir → 0.75ms
